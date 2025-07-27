@@ -43,7 +43,7 @@ markdown_extensions:
   - admonition
 extra:
   social:
-    - icon: simple/github
+    - icon: fontawesome/brands/linkedin
       link: https://github.com/nivas-22
     - icon: simple/linkedin
       link: https://linkedin.com/in/iamnivas
