@@ -31,6 +31,7 @@ theme:
     - navigation.footer
   icon:
     logo: material/school 
+
   palette:
     # Dark Mode
     - scheme: slate
@@ -48,12 +49,18 @@ theme:
       primary: blue
       accent: deep orange
 
-# # Plugins
-# plugins:
-#   - blog
-#   - redirects:
-#       redirect_maps:
-#         'index.md': docs/overview.md
+# Plugins
+plugins:
+  - blog
+  - redirects:
+      redirect_maps:
+        'index.md': docs/overview.md
+
+
+# Page tree
+nav:  # To keep it simple, each top-level item is a section on the site and has its own dir under `docs`
+  - Home:
+    - 'IAM': home/aws/iam.md
 
 markdown_extensions:
   - attr_list
