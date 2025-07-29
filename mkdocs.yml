@@ -79,7 +79,11 @@ nav:  # To keep it simple, each top-level item is a section on the site and has 
         - 'The Code Commit Repos': home/getting-started/code-commit.md
         - 'Access': home/getting-started/access.md
         - 'Workstation Setup': home/getting-started/workstation.md
-
+  - AWS:
+      - 'Authentication': home/aws/authentication.md
+  - Runbooks:
+    - 'Cloning the SlingShot Code Commit Repositories': runbooks/clone_code_commit.md
+    - 'Requesting new Generic Mailbox and making them available': runbooks/generic_emails.md
 extra:
   social:
     - icon: simple/github
