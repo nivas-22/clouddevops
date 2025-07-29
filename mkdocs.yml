@@ -75,12 +75,6 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
 
-# Page tree
-nav:  # To keep it simple, each top-level item is a section on the site and has its own dir under `docs`
-  - Home: index.md
-  - AWS:
-      - IAM: home/aws/iam.md
-
 extra:
   social:
     - icon: simple/github
