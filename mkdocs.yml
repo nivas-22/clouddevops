@@ -48,12 +48,12 @@ theme:
       primary: blue
       accent: deep orange
 
-# Plugins
-plugins:
-  - blog
-  - redirects:
-      redirect_maps:
-        'index.md': docs/overview.md
+# # Plugins
+# plugins:
+#   - blog
+#   - redirects:
+#       redirect_maps:
+#         'index.md': docs/overview.md
 
 markdown_extensions:
   - attr_list
