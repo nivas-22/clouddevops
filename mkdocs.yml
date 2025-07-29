@@ -53,7 +53,7 @@ plugins:
   - blog
   - redirects:
       redirect_maps:
-        'index.md': home/overview.md
+        'index.md': docs/overview.md
 
 markdown_extensions:
   - attr_list
@@ -78,7 +78,7 @@ markdown_extensions:
 # Page tree
 nav:  # To keep it simple, each top-level item is a section on the site and has its own dir under `docs`
   - Home:
-    - 'Overview': home/overview.md
+    - 'Overview': docs/home/overview.md
   - AWS:
       - 'iam': home/aws/iam.md
 
