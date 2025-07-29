@@ -78,9 +78,8 @@ markdown_extensions:
 # Page tree
 nav:  # To keep it simple, each top-level item is a section on the site and has its own dir under `docs`
   - Home: index.md
-    
   - AWS:
-      - 'iam': home/aws/iam.md
+      - IAM: home/aws/iam.md
 
 extra:
   social:
