@@ -54,8 +54,8 @@ theme:
 nav: 
   - Home: index.md # To keep it simple, each top-level item is a section on the site and has its own dir under `docs`
   - AWS: 
-     - Iam:  /home/aws/iam.md
-  - Terraform: /home/aws/Terraform.md
+     - Iam: iam.md
+  - Terraform: Terraform.md
 
 markdown_extensions:
   - attr_list
