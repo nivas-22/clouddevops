@@ -51,9 +51,10 @@ theme:
 
 
 # Page tree
-nav:  # To keep it simple, each top-level item is a section on the site and has its own dir under `docs`
-  - 'IAM': home/aws/iam.md
-  - Terraform: home/aws/Terraform.md
+nav: 
+  - Home: index.md # To keep it simple, each top-level item is a section on the site and has its own dir under `docs`
+  - 'IAM': aws/iam.md
+  - Terraform: aws/Terraform.md
 
 markdown_extensions:
   - attr_list
