@@ -2,19 +2,14 @@
 
 Welcome to :material-aws: :material-cloud: notes :desktop: material
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+For full documentation visit [Notes](https://github.com/nivas-22/Course-Tutorial).
 
-## Commands
+## Road Map
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+* `Linux Commands [Top 50]` - First prepare top 50 linux commands.
+* `AWS Solution Architect` - Learn AWS Services to Build architect
+* `DevOps` - DevOps to Automate the workflow
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
 

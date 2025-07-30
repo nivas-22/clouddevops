@@ -1,5 +1,5 @@
 site_name: Cloud DevOps Docs
-site_url: https://example.com
+site_url: https://github.com/nivas-22/clouddevops
 site_author: Nivas D
 theme:
   name: material
@@ -31,6 +31,7 @@ theme:
     - navigation.footer
   icon:
     logo: material/school 
+
   palette:
     # Dark Mode
     - scheme: slate
@@ -47,6 +48,13 @@ theme:
         name: Light mode
       primary: blue
       accent: deep orange
+
+
+# Page tree
+nav:  # To keep it simple, each top-level item is a section on the site and has its own dir under `docs`
+  - Home:
+    - 'IAM': home/aws/iam.md
+    - Terraform: home/aws/Terraform.md
 
 markdown_extensions:
   - attr_list
@@ -68,22 +76,6 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
 
-# Page tree
-nav:  # To keep it simple, each top-level item is a section on the site and has its own dir under `docs`
-  - Home:
-    - 'Overview': home/overview.md
-    - 'Getting Started':
-        - 'The Team': home/getting-started/team.md
-        - 'What is SlingShot?': home/getting-started/what-is-slingshot.md
-        - 'Cloud Organizations': home/getting-started/organizations.md
-        - 'The Code Commit Repos': home/getting-started/code-commit.md
-        - 'Access': home/getting-started/access.md
-        - 'Workstation Setup': home/getting-started/workstation.md
-  - AWS:
-      - 'Authentication': home/aws/authentication.md
-  - Runbooks:
-    - 'Cloning the SlingShot Code Commit Repositories': runbooks/clone_code_commit.md
-    - 'Requesting new Generic Mailbox and making them available': runbooks/generic_emails.md
 extra:
   social:
     - icon: simple/github
